@@ -18,12 +18,11 @@ function draw() {
       else {
         kleur = 'white';
       }
-    }
-    if (kleur=='white') {
-      kleur='black';
-    }
-    else {
-      kleur='white';
+      if (kleur=='white') {
+        kleur='black';
+      }
+      else {
+        kleur='white';
     }
   }
 }
